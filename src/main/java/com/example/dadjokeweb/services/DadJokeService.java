@@ -39,7 +39,7 @@ public class DadJokeService {
         int random = 0;
         ArrayList<String> randomJokes = new ArrayList<>();
 
-        for (int i = 0; i < dadJokes.size(); i++) {
+        for (int i = 0; i < 4; i++) {
             random = (int)(Math.random()*(dadJokes.size() - 1));
             randomJokes.add(dadJokes.get(random));
             dadJokes.remove(random);
